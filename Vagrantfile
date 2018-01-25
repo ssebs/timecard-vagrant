@@ -67,4 +67,11 @@ Vagrant.configure("2") do |config|
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
+
+  ### SRIPTS ###
+  config.vm.provision "shell", inline: "mkdir -p /var/www/public/"
+  config.vm.provision "shell", inline: "echo 'cd /var/www/public/' > /root/www.sh"
+  config.vm.provision "shell", inline: "echo 'cd /var/www/public/_scripts' > /root/scripts.sh"
+  config.vm.provision "shell", inline: "chmod a+x /root/*.sh"
+
 end
