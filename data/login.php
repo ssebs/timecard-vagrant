@@ -29,17 +29,15 @@
     ?>
     <div class="center">
         <h1 class="txt-ctr">Login</h1>
+        <br>
         <form action="action_page.php">
             <label><b>Username</b></label>
             <input type="text" placeholder="Enter Username" name="uname" required>
 
             <label><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
-            <br>
-            <div class="center">
-                <button type="submit">Login</button>
-            </div>
-            <label>
+           
+            <button type="submit">Login</button>
         </form>
     </div>
     <br/>
