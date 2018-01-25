@@ -31,7 +31,7 @@
         <h3>List of all users</h3>
         <table class="center-ib">
             <tr>
-                <th>First</th>
+                <th>Name</th>
                 <th>Last</th>
                 <th>Email</th>
                 <th>Date of Birth</th>
@@ -40,7 +40,7 @@
         <?php
             if ($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
-                    echo "\n<tr>\n<td>" . $row["First"]. "</td>\n<td>" . $row["Last"]. "</td>\n<td>" . $row["Email"]. "</td>\n<td>" . $row["Birthday"]. "</td>\n</tr>";
+                    echo "\n<tr>\n<td>" . $row["Name"]. "</td>\n<td>" . $row["User"]. "</td>\n<td>" . $row["Email"]. "</td>\n<td>" . $row["Birthday"]. "</td>\n</tr>";
                 }
             } else {
                 echo "0 results";

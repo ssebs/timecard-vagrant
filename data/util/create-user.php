@@ -1,9 +1,7 @@
 Created User:
 <?php
 
-echo $_POST["fst"];
-echo "<br>"; 
-// echo $_POST["lst"]; 
+echo $_POST["nm"];
 echo "<br>"; 
 echo $_POST["eml"]; 
 echo "<br>"; 

@@ -31,8 +31,7 @@
     <div class="center">
         <h1 class="txt-ctr">Create a new User Account</h1>
         <form action="util/create-user.php" method="post" onsubmit="return confirm('Are you sure you want to submit this form?');" class="ib">
-            <label>First Name:</label> <input type="text" name="fst" required><br/>
-            <!-- <label>Last Name:</label> <input type="text" name="lst" required><br/> -->
+            <label>Name:</label> <input type="text" name="nm" required><br/>
             <label>Username:</label> <input type="text" name="usr" required><br/>
             <label>Email:</label> <input type="text" name="eml" required><br/>
             <label>Birthday:</label> <input type="date" name="bdy" required><br/>

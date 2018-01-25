@@ -73,6 +73,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: "echo 'cd /var/www/public/' > /root/www.sh"
   config.vm.provision "shell", inline: "echo 'cd /var/www/public/_scripts' > /root/scripts.sh"
   config.vm.provision "shell", inline: "chmod a+x /root/*.sh"
+  config.vm.provision "shell", inline: "chmod a+x /var/www/public/_scripts/*.sh"
   config.vm.provision "shell", inline: "bash /var/www/public/_scripts/setup-db.sh"
 
 end
