@@ -29,7 +29,7 @@
     <hr>
     <div class="center">
         <h3>List of all users</h3>
-        <table class="center">
+        <table class="center-ib">
             <tr>
                 <th>First</th>
                 <th>Last</th>

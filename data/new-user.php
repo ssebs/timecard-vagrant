@@ -30,14 +30,14 @@
 
     <div class="center">
         <h1 class="txt-ctr">Create a new User Account</h1>
-        <form action="util/create-user.php" method="post" onsubmit="return confirm('Are you sure you want to submit this form?');" class="center-50">
-            <strong>First Name: </strong><input type="text" name="fst" required><br/>
-            <!-- <strong>Last Name: </strong><input type="text" name="lst" required><br/> -->
-            <strong>Username: </strong><input type="text" name="usr" required><br/>
-            <strong>Email: </strong><input type="text" name="eml" required><br/>
-            <strong>Birthday: </strong><input type="date" name="bdy" required><br/>
-            <strong>Password: </strong> <input type="password" name="pswd" required><br/><br/>
-            <button type="submit" name="sumbit">Create</button>
+        <form action="util/create-user.php" method="post" onsubmit="return confirm('Are you sure you want to submit this form?');" class="ib">
+            <label>First Name:</label> <input type="text" name="fst" required><br/>
+            <!-- <label>Last Name:</label> <input type="text" name="lst" required><br/> -->
+            <label>Username:</label> <input type="text" name="usr" required><br/>
+            <label>Email:</label> <input type="text" name="eml" required><br/>
+            <label>Birthday:</label> <input type="date" name="bdy" required><br/>
+            <label>Password:</label> <input type="password" name="pswd" required><br/><br/>
+            <button type="submit" name="sumbit" class="center">Create</button>
         </form>
     </div>
 

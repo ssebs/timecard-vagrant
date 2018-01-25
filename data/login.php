@@ -29,10 +29,10 @@
     ?>
     <div class="center">
         <h1 class="txt-ctr">Login</h1>
-        <form action="util/login-user.php" method="post" class="center-50">
-            <strong>Username: </strong><input type="text" name="usr" required><br/>
-            <strong>Password: </strong> <input type="password" name="pswd" required><br/><br/>
-            <button type="submit" name="sumbit">Create</button>
+        <form action="util/login-user.php" method="post" class="ib">
+            <label>Username:</label> <input type="text" name="usr" required><br/>
+            <label>Password:</label> <input type="password" name="pswd" required><br/><br/>
+            <button type="submit" name="sumbit" class="center">Create</button>
         </form>
     </div>
     <br/>
