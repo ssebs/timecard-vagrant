@@ -5,14 +5,6 @@ LAMP vagrant vm with a timecard app
 
 - Install VirtualBox, Vagrant
 - Clone this repo
+- Run *vagrant up*
+- Go to the http://http://192.168.33.10/
 
-My working commands:
-
-    vagrant up
-    vagrant ssh
-    sudo -i
-    . scripts.sh
-    ./setup-db.sh
-
-Done!
-Go to the IP of the host-only VM and the site should appear.
