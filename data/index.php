@@ -28,7 +28,7 @@
     </div>
     <br/>
     <div class="center">
-        <table>
+        <table class="center">
             <tr>
                 <th>First</th>
                 <th>Last</th>
