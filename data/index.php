@@ -15,7 +15,7 @@
 
     // for($i = 0; $i < 10; $i++)
     // {
-    //     echo "test PHP <strong>#" . $i . "</strong>";
+    //     echo "test PHP <strong>#" . ($i+69) . "</strong>";
     //     echo "<br>\n";
     // }
 
@@ -32,7 +32,7 @@
         <table class="center-ib">
             <tr>
                 <th>Name</th>
-                <th>Last</th>
+                <th>User</th>
                 <th>Email</th>
                 <th>Date of Birth</th>
             </tr>
