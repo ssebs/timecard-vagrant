@@ -9,7 +9,7 @@ LAMP vagrant vm with a timecard app
 #### Usage:
 
 - Complete Above Prerequisites
-- Clone this repo *git clone https://github.com/ssebs/timecard-vagrant.git*
+- Clone this repo (*git clone https://github.com/ssebs/timecard-vagrant.git*)
 - Run *vagrant up*
 - Go to http://http://192.168.33.10/
 
