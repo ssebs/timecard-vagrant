@@ -69,11 +69,15 @@ Vagrant.configure("2") do |config|
   # SHELL
 
   ### SRIPTS ###
+  # create scripts
   config.vm.provision "shell", inline: "mkdir -p /var/www/public/"
   config.vm.provision "shell", inline: "echo 'cd /var/www/public/' > /root/www.sh"
   config.vm.provision "shell", inline: "echo 'cd /var/www/public/_scripts' > /root/scripts.sh"
+  config.vm.provision "shell", inline: "echo 'mysql -u root -proot test' > /root/sql.sh"
+  #script permissions
   config.vm.provision "shell", inline: "chmod a+x /root/*.sh"
   config.vm.provision "shell", inline: "chmod a+x /var/www/public/_scripts/*.sh"
+  # run scripts
   config.vm.provision "shell", inline: "bash /var/www/public/_scripts/setup-db.sh"
 
 end
